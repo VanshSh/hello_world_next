@@ -16,3 +16,16 @@
   - All routes must be in the app folder
   - Every route file must have name page.js or page.tsx
   - Every folder corresponds to the path segment
+---
+- Nested routes
+    - blog folder
+      - first folder
+        - page.tsx
+      - second folder
+        - page.tsx
+---
+- Dynamic routes
+  - products folder
+    - [productId] folder
+      - page.tsx
+    - page.tsx
