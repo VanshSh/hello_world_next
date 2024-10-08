@@ -1,4 +1,4 @@
-### Last Video number : 5
+### [Last Video number : 7](https://www.youtube.com/watch?v=Vn4p4K6_M44&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=8&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -28,4 +28,14 @@
   - products folder
     - [productId] folder
       - page.tsx
+      - review folder 
+        - [reviewId] folder
+          - page.tsx
     - page.tsx
+  
+---
+- Catch all segements
+  - docs folder
+    - [...slug] folder
+      - page.tsx
+    - [[...slug]] folder // To show catch all segment page
