@@ -1,4 +1,4 @@
-### [Last Video number : 7](https://www.youtube.com/watch?v=Vn4p4K6_M44&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=8&ab_channel=Codevolution)
+### [Last Video number : 13](https://www.youtube.com/watch?v=Tpo5wBuk3po&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=13&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -36,6 +36,20 @@
 ---
 - Catch all segements
   - docs folder
-    - [...slug] folder
+    - [...slug] folder  // To show catch all segment page means all the links after docs/abc/...
       - page.tsx
-    - [[...slug]] folder // To show catch all segment page
+    - [[...slug]] folder // To show inital doc page
+---
+- Error page
+  - Create file `not-found.tsx`
+  - Call `import {notFound} method from 'next/navigatio'` to use error page from anywhere
+  -   `not-found.tsx` can be created on folder level too
+
+---
+- Private folders
+  - A private folder private implementation details and should not be considered by routing system including its sub-folders
+  - `_lib` is the private implementation
+  - For seperating UI Logic
+  - For consistently organizing internal files across a project
+  - for sorting and grouping files in code editors
+  - use '%5F' if you want to add underscore in the route then it will not be considered by private folder
