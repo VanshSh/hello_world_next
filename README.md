@@ -22,7 +22,7 @@
       - first folder
         - page.tsx
       - second folder
-        - page.tsx
+        - page.**tsx**
 ---
 - Dynamic routes
   - products folder
@@ -53,3 +53,7 @@
   - For consistently organizing internal files across a project
   - for sorting and grouping files in code editors
   - use '%5F' if you want to add underscore in the route then it will not be considered by private folder
+---
+- Route Groups 
+  - It helps us to keep the url clean for  many folders but under same type like : auth/login, auth/signup, auth/logout => login,signup,logout
+  - Use `(auth)`
