@@ -1,4 +1,4 @@
-### [Last Video number : 13](https://www.youtube.com/watch?v=Tpo5wBuk3po&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=13&ab_channel=Codevolution)
+### [Last Video number : 15](https://www.youtube.com/watch?v=FWlUf4FEQ1M&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=15&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -56,4 +56,11 @@
 ---
 - Route Groups 
   - It helps us to keep the url clean for  many folders but under same type like : auth/login, auth/signup, auth/logout => login,signup,logout
-  - Use `(auth)`
+  - Use `(auth)` paranthese
+
+---
+- Route Group layout
+  - Every folder can have its own layout.
+
+---
+
