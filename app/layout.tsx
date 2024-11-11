@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import './globals.css'
 export const metadata: Metadata = {
   title: {
@@ -17,7 +18,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <header className='bg-blue-300 text-center mb-3 p-2 uppercase font-bold'>
-          HEADER
+          <Link href={'/'}>Home</Link>
         </header>
         {children}
         <footer className='bg-blue-300 text-center mt-3 p-2 uppercase font-bold '>
