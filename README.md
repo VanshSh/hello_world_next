@@ -1,4 +1,4 @@
-### [Last Video number : 15](https://www.youtube.com/watch?v=FWlUf4FEQ1M&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=15&ab_channel=Codevolution)
+### [Last Video number : 18](https://www.youtube.com/watch?v=yE_y4EBq-EA&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=17&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -64,3 +64,14 @@
 
 ---
 
+- Title metadata
+  - Page metadata will replace the layout metadata if they have the same properties
+  - During merging the deepest section takes the priority 
+  - For dynamic metadata , we can also make it dynamic
+    ```
+      const generateMetadata = ({ params }: Props): Metadata => {
+       return {
+        title: `Product ${params.productId}`,
+       }
+      }
+    ```
