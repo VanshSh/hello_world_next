@@ -1,4 +1,4 @@
-### [Last Video number : 22](https://www.youtube.com/watch?v=7jBHW98vNjw&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=21&ab_channel=Codevolution)
+### Last Video number : 24](https://www.youtube.com/watch?v=UcnCZ0lXZbo&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=24&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -89,18 +89,23 @@
   }
 
   ```
-
 ---
-
 - Navigating between route using App router
   - Use Link component for the Navigation client side
   - Use prop `replace` in the Link componentto replace the current history state in the browser
   - Programmatically navigate to to ` router.push('/') using useRouter or router.replace("/") or router.back()`
 
 ---
-
 - Loading UI
   - In Nextjs when user navigate to the different routes in the same page it preserves the states.
   - Templates are similar to the layouts in that way they wrap each child layout or page. But with templates when a user navigated between routed that share a template a new instance of the component is mounted, DOM elements are recreated , state is preserved and effects are re-synchronized
   - Similar to layouts templates also should accept a children prop which will render the nested segements in the route
   - We should mostly rely on the layout 
+---
+
+- Loading.tsx
+  - This file allows us to create loading state that are displayed to user while a specific route segmenr content is loading
+  - The loading state appears immediately upon navigation, giving users the assurances that application is responsive and actively loading content
+  - The file will automatically wrap page and all its nested children
+  - Display the loading state as soon as user navigates to a new route
+  - Creation of the shared layout that remain interactive while new rout segments are loading
