@@ -1,4 +1,4 @@
-### [Last Video number : 18](https://www.youtube.com/watch?v=yE_y4EBq-EA&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=17&ab_channel=Codevolution)
+### [Last Video number : 22](https://www.youtube.com/watch?v=7jBHW98vNjw&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=21&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -95,4 +95,5 @@
 - Navigating between route using App router
   - Use Link component for the Navigation client side
   - Use prop `replace` in the Link componentto replace the current history state in the browser
+  - Programmatically navigate to to ` router.push('/') using useRouter or router.replace("/") or router.back()`
 
