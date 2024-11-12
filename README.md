@@ -97,3 +97,10 @@
   - Use prop `replace` in the Link componentto replace the current history state in the browser
   - Programmatically navigate to to ` router.push('/') using useRouter or router.replace("/") or router.back()`
 
+---
+
+- Loading UI
+  - In Nextjs when user navigate to the different routes in the same page it preserves the states.
+  - Templates are similar to the layouts in that way they wrap each child layout or page. But with templates when a user navigated between routed that share a template a new instance of the component is mounted, DOM elements are recreated , state is preserved and effects are re-synchronized
+  - Similar to layouts templates also should accept a children prop which will render the nested segements in the route
+  - We should mostly rely on the layout 
