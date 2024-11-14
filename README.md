@@ -1,4 +1,4 @@
-### Last Video number : 24](https://www.youtube.com/watch?v=UcnCZ0lXZbo&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=24&ab_channel=Codevolution)
+### [**Last** Video number : 24](https://www.youtube.com/watch?v=UcnCZ0lXZbo&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=24&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -40,9 +40,9 @@
       - page.tsx
     - [[...slug]] folder // To show inital doc page
 ---
-- Error page
+- Not found page
   - Create file `not-found.tsx`
-  - Call `import {notFound} method from 'next/navigatio'` to use error page from anywhere
+  - Call `import {notFound} method from 'next/navigatio'` to use notfound error page from anywhere
   -   `not-found.tsx` can be created on folder level too
 
 ---
@@ -103,9 +103,23 @@
   - We should mostly rely on the layout 
 ---
 
-- Loading.tsx
+- Loading.tsx special file
   - This file allows us to create loading state that are displayed to user while a specific route segmenr content is loading
   - The loading state appears immediately upon navigation, giving users the assurances that application is responsive and actively loading content
   - The file will automatically wrap page and all its nested children
   - Display the loading state as soon as user navigates to a new route
   - Creation of the shared layout that remain interactive while new rout segments are loading
+
+---
+- error.tsx 
+  - It must be a client file
+  - The rest of the UI will remain unaffected
+  - You can design this error file as you want
+  - Automatically wrap a route segment and its nested children in a React Error Boundary
+  - We can also except the 
+    ```
+    {error}:{error:Erro}
+    <div>{error.message}</div>
+    ```
+    ![alt text](image.png)
+---
