@@ -123,3 +123,7 @@
     ```
     ![alt text](image.png)
 ---
+
+- Handling errors in the nested routes
+  - You get inbuilt functionality like `rest` as param in ErrorBoundary funtion in error.tsx file.
+  - To work with reset you need to make your page also "use client"
