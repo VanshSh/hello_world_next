@@ -129,3 +129,15 @@
   - To work with reset you need to make your page also "use client"
   - Error Boundary only moves to the first parent folder and replace the content of it with the  error.tsx file 
   - Error Boundary will not handle the error thrown in the layout.tsx in the same segment . To solve this we need to move the error.tsx file to the parent folder
+
+---
+- Parallel Routes
+  - It is advance routing mechanism that allows for the simultaneous rendering of multiple pages within the same layout.
+  - It is defined using the feature known as slots
+  - To define a slot, we use the `@folder` naming convention
+  - Each slot is then passed as a prop to its corresponding `layout.tsx` file
+  - Benefit is their ability to split a single layout into various slots ,making the code more manageable
+  - Independent routing handling 
+    - Each sloth can have its own loading and error states
+  - Each slot essentially function as a mini-application complete with its own navigation and state management
+  - 
