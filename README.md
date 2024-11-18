@@ -1,4 +1,4 @@
-### [**Last** Video number : 24](https://www.youtube.com/watch?v=UcnCZ0lXZbo&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=24&ab_channel=Codevolution)
+### [**Last** Video number : 26](https://www.youtube.com/watch?v=YG98I2Bj7qw&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=26&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -127,3 +127,5 @@
 - Handling errors in the nested routes
   - You get inbuilt functionality like `rest` as param in ErrorBoundary funtion in error.tsx file.
   - To work with reset you need to make your page also "use client"
+  - Error Boundary only moves to the first parent folder and replace the content of it with the  error.tsx file 
+  - Error Boundary will not handle the error thrown in the layout.tsx in the same segment . To solve this we need to move the error.tsx file to the parent folder
