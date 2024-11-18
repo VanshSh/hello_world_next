@@ -1,4 +1,4 @@
-### [**Last** Video number : 26](https://www.youtube.com/watch?v=YG98I2Bj7qw&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=26&ab_channel=Codevolution)
+### [**Last** Video number : 29](https://www.youtube.com/watch?v=NPtnJ6Ivv9k&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=29&ab_channel=Codevolution)
 
 ---
 - RSC
@@ -140,4 +140,4 @@
   - Independent routing handling 
     - Each sloth can have its own loading and error states
   - Each slot essentially function as a mini-application complete with its own navigation and state management
-  - 
+  -  
