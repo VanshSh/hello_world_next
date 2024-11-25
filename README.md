@@ -140,4 +140,14 @@
   - Independent routing handling 
     - Each sloth can have its own loading and error states
   - Each slot essentially function as a mini-application complete with its own navigation and state management
-  -  
+
+---
+- Unmatched routes || Parallel Routing
+  - Navigating from the UI 
+    - In the case of navigation within the UI, Nextjs retains the previously active state of a slot regardless of changes in the URL
+  - Page reload
+    - Nextjs immediately searched for a deafult.tsx file within each unmatched slot
+    - The presence of this file is critical as it provides the default content that Nextjs will render in the user interface
+    - If this default.tsx file is missing in any of the unmatched slots for the current route Nextjs will render a 404
+  - deafult.tsx file
+    - The deafult.tsx file in the NExt.js serves as a fallback to render content when the framewrok cannot retrieve a slot's active state from the current URL
